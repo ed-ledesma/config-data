@@ -6,7 +6,7 @@ spring:
     name: auth
   
   datasource:
-    url: jdbc::mysql://localhost:3306/dwb_20262
+    url: jdbc:mysql://localhost:3306/dwb_20262
     username: root
     password: EstaNoLaSubas
     driver-class-name: com.mysql.cj.jdbc.Driver
