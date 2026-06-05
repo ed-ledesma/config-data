@@ -9,10 +9,10 @@ spring:
      server:
        webmvc:
          routes:
-           - id: customer-service
-             uri: lb://customer-service
+           - id: product-service
+             uri: lb://product-service
              predicates:
-               - Path=/customer-service/**
+               - Path=/product-service/**
              filters:
                - StripPrefix=1
 eureka:
